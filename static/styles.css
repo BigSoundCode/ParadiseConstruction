@@ -1,0 +1,92 @@
+.headerImg {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.slide-up {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 2s ease-out, transform 1.5s ease-out;
+    z-index: 1;
+  }
+  
+  .slide-up.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .homeItem {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-left: 50px;
+  }
+
+  .homePhoto {
+    width: 1160px;
+    height: 800px;
+    object-fit: cover;
+
+  }
+
+  .homeText {
+    margin-left: 50px;
+  }
+
+  .break {
+    height: 100px;
+  }
+
+  .headerContent {
+    z-index: 0;
+    display: flex;
+    background-image: url('../images/home/Lakehouse-24.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: 100%;
+    object-position: center;
+    position: fixed;
+  
+
+  }
+
+  .logo {
+    position: relative;
+    left: 50px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #5a9728;
+    font-size: 24px;
+    font-weight:500;
+    margin: 50px;
+  }
+
+  .navlinks {
+    position: absolute;
+    right: 400px;
+  }
+
+  .homeContent {
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: calc(100vh);
+    margin: 0;
+    padding: 5px;
+  }
