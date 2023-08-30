@@ -11,3 +11,5 @@ function handleScroll() {
     }
     window.addEventListener('load', handleScroll);
     window.addEventListener('scroll', handleScroll);
+
+
