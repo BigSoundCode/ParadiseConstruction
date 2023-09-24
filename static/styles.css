@@ -28,7 +28,7 @@ body {
 
   .homePhoto {
     width: 100%;
-    height: 800px;
+    height: 675px;
     object-fit: cover;
 
   }
@@ -124,15 +124,44 @@ a.effect-shine:hover {
   
 footer {
     height: 200px;
-    background-color: #c2c2c2;
-    background-image: url('../images/house.png');
+    background-color: #a8a8a8;
+    background-image: url('../images/house\ White.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     padding: 0;
     margin: -10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
+.contactText{
+  display: flex;
+  flex-direction: row;
+  top: 120px;
+  position: relative;
+}
+
+.greenrect {
+  height: inherit;
+  width: 0px;
+  background-color:#86c74a;
+  animation-name: rectangle;
+  animation-duration: 0.5s;
+  transition: width 1s ease; /* Slower transition effect */
+}
+
+@keyframes rectangle {
+  from {width: 0px;}
+  to {width: 100px;}
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
 /*
 #home1:hover {
   content: url("../images/230804-3195Battersea-4.jpg");
@@ -210,4 +239,29 @@ footer {
 html {
   scroll-behavior: smooth;
   scroll-timeline: 500ms;
+}
+
+.footerText {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.projLink {
+  display: flex;
+  align-items: center;
+
+}
+
+.arrow {
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+
+.projLink a {
+  text-decoration: none;
+  color: black;
 }

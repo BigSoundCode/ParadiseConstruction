@@ -60,3 +60,98 @@ function handleScroll() {
             smoothScroll(targetId, 1000); // You can adjust the duration (in milliseconds) to control the speed
         });
     });
+
+
+    function changeImage() {
+        // Get a reference to the image element
+        var image = document.getElementById("home1");
+
+        // Change the image source when the link is hovered over
+        image.src = "images/230804-3195Battersea-10.jpg";
+
+                // Get a reference to the green rectangle
+                var rectangle = document.getElementById("rectangle1");
+
+                // Grow the green rectangle to 100px width
+                rectangle.style.width = "50px";
+        
+    }
+
+    function changeImage2() {
+        // Get a reference to the image element
+        var image = document.getElementById("home1");
+
+        // Change the image source when the link is hovered over
+        image.src = "images/home/230804-3195BatterseaSmall-9.jpg";
+
+                                  // Get a reference to the green rectangle
+                                  var rectangle = document.getElementById("rectangle1");
+
+                                  // Grow the green rectangle to 100px width
+                                  rectangle.style.width = "0px";
+        
+    }
+
+    function changeImage3() {
+        // Get a reference to the image element
+        var image = document.getElementById("home2");
+
+        // Change the image source when the link is hovered over
+        image.src = "images/230810-ChristelLane-9.jpg";
+
+        // Get a reference to the green rectangle
+        var rectangle = document.getElementById("rectangle2");
+
+        // Grow the green rectangle to 100px width
+        rectangle.style.width = "50px";
+          
+    }
+
+    function changeImage4() {
+        // Get a reference to the image element
+        var image = document.getElementById("home2");
+
+        // Change the image source when the link is hovered over
+        image.src = "images/projects/230810-ChristelLane-8.jpg";
+
+                          // Get a reference to the green rectangle
+                          var rectangle = document.getElementById("rectangle2");
+
+                          // Grow the green rectangle to 100px width
+                          rectangle.style.width = "0px";
+        
+    }
+
+
+    function changeImage5() {
+        // Get a reference to the image element
+        var image = document.getElementById("home3");
+
+        // Change the image source when the link is hovered over
+        image.src = "images/home/BayviewSmall-6.jpg";
+
+          // Get a reference to the green rectangle
+          var rectangle = document.getElementById("rectangle");
+
+        // Grow the green rectangle to 100px width
+        rectangle.style.width = "50px";
+    }
+
+    function changeImage6() {
+        // Get a reference to the image element
+        var image = document.getElementById("home3");
+
+      
+
+        // Change the image source when the link is hovered over
+        image.src = "images/BayviewSmall-13.jpg";
+
+                  // Get a reference to the green rectangle
+                  var rectangle = document.getElementById("rectangle");
+
+                  // Grow the green rectangle to 100px width
+                  rectangle.style.width = "0px";
+          
+
+        
+    }
