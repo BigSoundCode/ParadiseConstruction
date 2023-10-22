@@ -155,3 +155,14 @@ function handleScroll() {
 
         
     }
+
+    window.onscroll = function() {
+        var ctaButton = document.getElementById("cta-button");
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            ctaButton.style.display = "block";
+        } else {
+            ctaButton.style.display = "none";
+        }
+    };
+
+   
